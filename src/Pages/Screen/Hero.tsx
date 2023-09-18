@@ -61,10 +61,11 @@ const Img = styled.img`
   height: 95%;
   @media screen and (max-width: 768px) {
       height: 35%;
+      width:90%;
   }
   @media screen and (max-width: 320px) {
       height: 300px;
-      width: 100%;
+      width: 90%;
   }
 `
 const Right = styled.div`

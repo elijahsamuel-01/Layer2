@@ -118,6 +118,12 @@ const Benefits = styled.div`
   height: 100%;
   width: 100%;
   flex-wrap: wrap;
+    @media (max-width: 320px) {
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
 `;
 
 const Img = styled.img``;
@@ -151,6 +157,12 @@ const Ball = styled.div`
   height: 15px;
   border-radius: 50%;
   background-color: #e74f40ff;
+    @media (max-width: 320px) {
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
 `;
 
 const TopWrapper = styled.div`
@@ -204,15 +216,22 @@ const Phone = styled.div`
 `;
 
 const Container = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   padding: 70px 0px 70px 0px;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* background-color: red; */
 
   @media (max-width: 500px) {
     width: 100%;
+    justify-content: center;
+  }
+  @media (max-width: 400px) {
+    width:  80%;
+    display:flex;
+    flex-wrap:wrap;
     justify-content: center;
   }
 `;
